@@ -1,11 +1,11 @@
 // kilometerToMeter
 function kilometerToMeter(km) {
     var num = parseFloat(km);
-    //length input can be a float number.
+    //distance input can be a float number.
     var metere = num * 1000;
     if (num < 0) {
         return num = metere * -1;
-        //Length always has the positive value
+        //distance in calculations can has negetive values even but in result we write in positive.
     } else {
         return metere;
     }
