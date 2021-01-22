@@ -56,10 +56,3 @@ function megaFriend(names) {
         }
     } return mega;
 }
-var friendNames = ["Naim", "Ogy", "Mr.Rizo", "Tanjim", "NaimulAlam", "Abul"];
-var megaNames = megaFriend(friendNames);
-
-console.log(kilometerToMeter(-0.11)) //delete it before submiting
-console.log(budgetCalculator(2, 2, 2)) //delete it before submiting
-console.log(hotelCost(21)); //delete it before submiting
-console.log(megaNames); //delete it before submiting
